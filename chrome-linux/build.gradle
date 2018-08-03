@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = 'ChromeLinux'
+
+dependencies {
+    compile 'com.codeborne:selenide:4.12.3'
+}
+
+repositories {
+    jcenter()
+}
